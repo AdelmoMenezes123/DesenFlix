@@ -94,15 +94,15 @@ header > img{
   grid-template: repeat(1,1fr) / repeat(1,1fr) ;
 }
 
-.img-lado{border: 5px solid cyan; height: 32vh; margin-bottom: 5px;}
+.img-lado{border: 5px solid cyan;  margin-bottom: 5px;}
 
 @media (min-width: 350px) {
   .img-lado {
       border: 5px solid cyan;
       border-bottom: 0;
-      height: 25vh;
+      height:100%;
       margin: 30px 6px;
-      margin-bottom: 0;;
+      margin-bottom: 0;
   }
 }
 

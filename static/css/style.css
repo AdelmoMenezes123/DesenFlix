@@ -8,6 +8,53 @@ body{
   color: #fafafa;
 }
 
+h1 {
+  font-size:24px;
+  font-weight:normal;
+  margin:0px;
+  overflow:visible;
+  padding:0px;
+  text-align:center;
+}
+
+.event {
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  color:#FFFFFF;
+  font-size:12px;
+  margin:0px 30px;
+  padding:2px 0px;
+}
+
+.event.listening {
+  background-color:#333333;
+  display:block;
+}
+
+.event.received {
+  background-color:#4B946A;
+  display:none;
+}
+
+@keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+
+@-webkit-keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+
+.blink {
+  animation:fade 3000ms infinite;
+  -webkit-animation:fade 3000ms infinite;
+}
+
+/* aqui comeca o meu css */
+
 header{
 
   border-bottom: 0px solid; 
@@ -31,7 +78,8 @@ header > img{
   text-align: center;
   padding-right: 0px;
   padding-left: 5px;
-  
+  overflow: auto;
+  display: flex;
 }
 
 .bloco{
@@ -40,7 +88,22 @@ header > img{
   border-right: 0px;
   background:snow;
   padding-top: 10px;
-  padding-bottom: 5px
+  padding-bottom: 5px; 
+
+  display: grid;
+  grid-template: repeat(1,1fr) / repeat(1,1fr) ;
 }
 
 .img-lado{border: 5px solid cyan; height: 32vh; margin-bottom: 5px;}
+
+@media (min-width: 350px) {
+  .img-lado {
+      border: 5px solid cyan;
+      height: 25vh;
+      margin: 30px 6px;
+  }
+}
+
+.ftHeader{
+  border-radius: 50%;
+}

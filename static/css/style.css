@@ -88,23 +88,25 @@ header > img{
   border-right: 0px;
   background:snow;
   padding-top: 10px;
-  padding-bottom: 5px; 
+  padding-bottom: 0px; 
   overflow: auto;
-  display: grid;
+
+ display: grid;
   grid-template: repeat(1,1fr) / repeat(1,1fr) ;
 }
 
-.img-lado{border: 5px solid cyan; height: 32vh;  margin-bottom: 5px;}
+.img-lado{border: 5px solid cyan; ; margin-bottom: 0px;}
 
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 480px) {
   .img-lado {
-      border: 5px solid cyan;
-      border-bottom: 0;
-      margin: 0px 5px;
-      margin-bottom: 0;
+      border: 4px solid cyan;
+      border-bottom: 5px;
+      height: 100%;
+      /*margin: 30px 6px;*/
+      margin-bottom: 0px;
       margin-right: 2vw;
-      margin-bottom: 34px;
-
+      padding-bottom: 1px;
+      
   }
 }
 
@@ -116,9 +118,10 @@ header > img{
 .top{
   color:snow;
   background: #702c91;
-  margin-bottom: 0px;
+  margin-bottom: 3vh;
+  
 }
 
 .ft{
-  height: 28vh;
+  height: 100%;
 }

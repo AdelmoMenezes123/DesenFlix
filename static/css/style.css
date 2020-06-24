@@ -112,7 +112,8 @@ header > img{
 }
 
 .ftHeader{
-  border-radius: 50%;
+  
+  line-height: 5;
 }
 
 

@@ -96,13 +96,15 @@ header > img{
 
 .img-lado{border: 5px solid cyan; height: 32vh;  margin-bottom: 5px;}
 
-@media (min-width: 350px) {
+@media screen and (max-width: 480px ) {
   .img-lado {
       border: 5px solid cyan;
       border-bottom: 0;
-      height:32vh;
-      margin: 30px 6px;
+      margin: 0px 5px;
       margin-bottom: 0;
+      margin-right: 2vw;
+      margin-bottom: 34px;
+
   }
 }
 
@@ -114,6 +116,9 @@ header > img{
 .top{
   color:snow;
   background: #702c91;
-  margin: 0px 6px;
-  padding: 0px 7px;
+  margin-bottom: 0px;
+}
+
+.ft{
+  height: 28vh;
 }

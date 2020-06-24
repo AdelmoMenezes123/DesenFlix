@@ -89,18 +89,18 @@ header > img{
   background:snow;
   padding-top: 10px;
   padding-bottom: 5px; 
-
+  overflow: auto;
   display: grid;
   grid-template: repeat(1,1fr) / repeat(1,1fr) ;
 }
 
-.img-lado{border: 5px solid cyan;  margin-bottom: 5px;}
+.img-lado{border: 5px solid cyan; height: 32vh;  margin-bottom: 5px;}
 
 @media (min-width: 350px) {
   .img-lado {
       border: 5px solid cyan;
       border-bottom: 0;
-      height:100%;
+      height:32vh;
       margin: 30px 6px;
       margin-bottom: 0;
   }

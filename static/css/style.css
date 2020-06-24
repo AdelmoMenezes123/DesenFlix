@@ -100,13 +100,13 @@ header > img{
 @media screen and (max-width: 480px) {
   .img-lado {
       border: 4px solid cyan;
-      border-bottom: 0px;
+      /* border-bottom: 0px; */
       height: 100%;
-      /*margin: 30px 6px;*/
-      margin-bottom: 15px;
+      margin: 30px 6px;
+      /* margin-bottom: 15px; */
       margin-right: 2vw;
-      padding-bottom: 1px;
-      width: 100%
+      /* padding-bottom: 1px; */
+      /* width: 100% */
       
   }
 }
@@ -120,7 +120,7 @@ header > img{
   color:snow;
   background: #702c91;
   margin-bottom: 0vh;
-  padding-bottom:4px;
+  padding-bottom:5px;
   
 }
 

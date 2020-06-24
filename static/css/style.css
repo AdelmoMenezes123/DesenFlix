@@ -99,11 +99,21 @@ header > img{
 @media (min-width: 350px) {
   .img-lado {
       border: 5px solid cyan;
+      border-bottom: 0;
       height: 25vh;
       margin: 30px 6px;
+      margin-bottom: 0;;
   }
 }
 
 .ftHeader{
   border-radius: 50%;
+}
+
+
+.top{
+  color:snow;
+  background: #702c91;
+  margin: 0px 6px;
+  padding: 0px 7px;
 }

@@ -1,133 +1,160 @@
-*{
-  font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+* {
+    font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-body{
-  background-color: #702c91;
-  color: #fafafa;
+body {
+    background-color: #702c91;
+    color: #fafafa;
 }
 
 h1 {
-  font-size:24px;
-  font-weight:normal;
-  margin:0px;
-  overflow:visible;
-  padding:0px;
-  text-align:center;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
 }
 
 .event {
-  border-radius:4px;
-  -webkit-border-radius:4px;
-  color:#FFFFFF;
-  font-size:12px;
-  margin:0px 30px;
-  padding:2px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0px 30px;
+    padding: 2px 0px;
 }
 
 .event.listening {
-  background-color:#333333;
-  display:block;
+    background-color: #333333;
+    display: block;
 }
 
 .event.received {
-  background-color:#4B946A;
-  display:none;
+    background-color: #4B946A;
+    display: none;
 }
 
 @keyframes fade {
-  from { opacity: 1.0; }
-  50% { opacity: 0.4; }
-  to { opacity: 1.0; }
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1.0;
+    }
 }
 
 @-webkit-keyframes fade {
-  from { opacity: 1.0; }
-  50% { opacity: 0.4; }
-  to { opacity: 1.0; }
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1.0;
+    }
 }
 
 .blink {
-  animation:fade 3000ms infinite;
-  -webkit-animation:fade 3000ms infinite;
+    animation: fade 3000ms infinite;
+    -webkit-animation: fade 3000ms infinite;
 }
+
 
 /* aqui comeca o meu css */
 
-header{
-
-  border-bottom: 0px solid; 
+header {
+    border-bottom: 0px solid;
 }
 
-header > img{
-  display: flex;
-  margin: 0 auto;
+header>img {
+    display: flex;
+    margin: 0 auto;
 }
 
-.jumbotron{margin-bottom: 2px}
-
-.textFundopurple{
-  color:  snow;
-  font-weight: bold;
-  text-align: center;
-}
-.CorPurple{background: #702c91;}
-
-.aolado{
-  text-align: center;
-  padding-right: 0px;
-  padding-left: 5px;
-  overflow: auto;
-  display: flex;
+.jumbotron {
+    margin-bottom: 2px
 }
 
-.bloco{
-  border: 2px solid black;
-  border-left: 0px;
-  border-right: 0px;
-  background:snow;
-  padding-top: 10px;
-  padding-bottom: 0px; 
-  overflow: auto;
-
- display: grid;
-  grid-template: repeat(1,1fr) / repeat(1,1fr) ;
+.textFundopurple {
+    color: snow;
+    font-weight: bold;
+    text-align: center;
 }
 
-.img-lado{border: 5px solid cyan; ; margin-bottom: 0px;}
+.CorPurple {
+    background: #702c91;
+}
+
+.aolado {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 5px;
+    overflow: auto;
+    display: flex;
+    align-items: self-start;
+}
+
+.bloco {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background: snow;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    overflow: auto;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+}
+
+.img-lado {
+    border: 5px solid cyan;
+    ;
+    margin-bottom: 0px;
+}
 
 @media screen and (max-width: 480px) {
-  .img-lado {
-      border: 4px solid cyan;
-      /* border-bottom: 0px; */
-      height: 100%;
-      margin: 30px 6px;
-      /* margin-bottom: 15px; */
-      margin-right: 2vw;
-      /* padding-bottom: 1px; */
-      /* width: 100% */
-      
-  }
+    .img-lado {
+        border: 4px solid cyan;
+        /* border-bottom: 0px; */
+        height: 100%;
+        margin: 30px 6px;
+        /* margin-bottom: 15px; */
+        margin-right: 2vw;
+        /* padding-bottom: 1px; */
+        /* width: 100% */
+    }
 }
 
-.ftHeader{
-  
+.ftHeader {
     line-height: 5;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
 }
 
-
-.top{
-  color:snow;
-  background: #702c91;
-  margin-bottom: 0vh;
-  padding-bottom:5px;
-  
+.top {
+    color: snow;
+    background: #702c91;
+    margin-bottom: 0vh;
+    padding-bottom: 5px;
 }
 
-.ft{
-  height: 100%;
+.ft {
+    height: 100%;
+}
+
+.text {
+    color: #702c91;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tam {
+    height: 32vh;
 }

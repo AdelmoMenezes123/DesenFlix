@@ -1,0 +1,29 @@
+body {
+    background-color: #bfbbba;
+    text-align: center;
+}
+
+.video {
+    height: 40vh;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+    background-color: darkslategray;
+    margin-top: 21vh;
+}
+
+h1,
+h5,
+p {
+    text-align: center;
+    color: snow;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

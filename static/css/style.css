@@ -1,15 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
 /*----------> NAV  */
 
 
 /* NAV BOTAO FOOTER QUANDO TIVER EM MOBILE */
 
 @media screen and (max-width:600px) {
-    .NavbuttonHidderFooter {
+    .buttonNavFooterModile {
         bottom: 0;
         position: fixed;
         align-items: center;
         right: 1px;
         left: 1px;
         width: 100%;
+    }
+}
+
+
+/* ----------------> HEADER */
+
+.card-texto {
+    padding: 1.25rem;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    color: #fffafa;
+    font-family: 'Ranchers', cursive;
+}
+
+.card-title {
+    font-size: 65px;
+}
+
+
+/* -------------> MOBILE */
+
+@media screen and (max-width:650px) {
+    .card-img {
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (min-width:651px) {
+    .card-img {
+        width: 100%;
+        height: 70vh;
     }
 }

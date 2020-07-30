@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Ranchers&display=swap');
 
 /* ---------------> GLOBAL */
+
+* {
+    font-family: 'Ranchers', cursive;
+}
+
+.btn {
+    font-family: " Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
 
 .purple {
     background-color: purple;
@@ -13,6 +23,42 @@
     border-color: #00f;
 }
 
+.yellow {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.gray {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.green {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.red {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.m-top-bot-4vh {
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+
+.jumbotron {
+    margin-bottom: 13px;
+    border-bottom: 3px solid;
+    opacity: 0.8;
+    box-shadow: 7px 6px 8px 2px black;
+}
+
 
 /*----------> NAV  */
 
@@ -21,12 +67,7 @@
 
 @media screen and (max-width:600px) {
     .buttonNavFooterModile {
-        bottom: 0;
-        position: fixed;
-        align-items: center;
-        right: 1px;
-        left: 1px;
-        width: 100%;
+        display: none;
     }
     /* .NavLogoMobile {} */
     .FooterModile {

@@ -59,6 +59,17 @@
     box-shadow: 7px 6px 8px 2px black;
 }
 
+.slid {
+    display: flex;
+    overflow: auto;
+}
+
+.video {
+    height: 26vh;
+    width: 100%;
+    margin-right: 10px
+}
+
 
 /*----------> NAV  */
 

@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
+/* ---------------> GLOBAL */
+
+.purple {
+    background-color: purple;
+    color: snow;
+}
+
+.blue {
+    color: snow;
+    background-color: #00f;
+    border-color: #00f;
+}
+
+
 /*----------> NAV  */
 
 
@@ -13,6 +27,26 @@
         right: 1px;
         left: 1px;
         width: 100%;
+    }
+    /* .NavLogoMobile {} */
+    .FooterModile {
+        bottom: 0;
+        position: fixed;
+        align-items: center;
+        right: 1px;
+        left: 1px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .FooterModile {
+        display: none;
+    }
+    .buttonNavFooterModile {
+        color: snow;
+        background-color: #00f;
+        border-color: #00f
     }
 }
 

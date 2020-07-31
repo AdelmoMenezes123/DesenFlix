@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-inicial {
+    width: 20%;
+}
+
+.cardTexto {
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width:400px) {
+    .img-inicial {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:800px) {
+    .img-inicial {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .cardTexto {
+        position: absolute;
+        display: inline-block
+    }
+}
+
+.FooterSeries {
+    position: fixed;
+    bottom: 0;
+    right: 17px;
+    margin-top: 10px;
+}

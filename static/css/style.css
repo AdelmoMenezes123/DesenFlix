@@ -73,12 +73,14 @@
 @media screen and (max-width:650px) {
     .img {
         width: 24vw;
+        margin-left: 15px;
     }
 }
 
 @media screen and (min-width:651px) {
     .img {
         width: 15vw;
+        margin-left: 15px;
     }
 }
 

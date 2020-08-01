@@ -19,8 +19,8 @@
 
 .blue {
     color: snow;
-    background-color: #00f;
-    border-color: #00f;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
 }
 
 .yellow {
@@ -45,6 +45,12 @@
     color: #fff;
     background-color: #dc3545;
     border-color: #dc3545;
+}
+
+.dark {
+    color: #fff;
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
 }
 
 .m-top-bot-4vh {

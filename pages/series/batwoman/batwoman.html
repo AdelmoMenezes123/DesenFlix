@@ -12,19 +12,21 @@
     <link rel="stylesheet" href="/static/css/series.css">
 
     <script src="https://kit.fontawesome.com/30f83f736b.js" crossorigin="anonymous"></script>
+    <script defer src="./batwoman.js"></script>
+
 </head>
 
 <body>
     <!-- Nav -->
-    <nav class="navbar navbar-dark purple NavLogoMobile">
+    <nav class="navbar navbar-dark red NavLogoMobile">
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 blue" type="submit">Buscar</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="pesquisa">
+            <button class="btn btn-outline-success my-2 my-sm-0 red" type="submit">Buscar</button>
         </form>
     </nav>
 
-    <div class="jumbotron">
-        <div class="cardImagem purple">
+    <div class="jumbotron bg-dark">
+        <div class="cardImagem red">
             <img src="/static/img/capaSeries/batwoman.jpg" class="img-inicial" alt="...">
             <div class="card-body cardTexto">
                 <h1>Batwoman</h1>
@@ -38,8 +40,16 @@
     </div>
 
 
+    <div class="jumbotron bg-dark">
+        <div class="cardImagem">
+            <ul class="list-group" id="video">
+                <!-- AQUI E OS VIDEOS EM JS -->
+            </ul>
+        </div>
+    </div>
+
     <footer>
-        <a href="/index.html" class="btn btn-lg purple FooterSeries">
+        <a href="/index.html" class="btn btn-lg red FooterSeries">
             <i class="fas fa-home"> home</i>
         </a>
     </footer>

@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="/static/css/style.css">
 
     <script defer src="/main.js"></script>
-    <title>Hello, world!</title>
+
+    <title>DesenFlix</title>
 </head>
 
 <body>
@@ -53,9 +54,21 @@
     <div class="jumbotron">
 
         <div class=" btn-lg dark m-top-bot-4vh">Filmes</div>
-        <div class="container-fluid slid-fluid slid" id="filmes">
-            <!-- AQUI FICA O JS COM A CRIACAO DOS CARD -->
+        <div class="container-fluid slid-fluid slid" style="height: 200px;" id="filmes">
 
+            <input type="checkbox" id="switch" hidden />
+            <label class="flip-container" for="switch">
+
+            <div class="flipper">
+                    <div class="front">
+                        <img width="130" height="180" src="/static/img/capaSeries/ponto-ignicao.jpg" />
+                    </div>
+                    <div class="back">
+                        <iframe src="https://megahdfilmes.com/api-embed/?action=modal&amp;what=iframe&amp;type=stream&amp;id=aHR0cHM6Ly9zdHJlYW10YXBlLmNvbS9lL0Q0ZUFvbDA5ejFTa3JXdw==" allow=" controls; accelerometer; autoplay; gyroscope; picture-in-picture" width="300" controls="">
+                        </iframe>
+                    </div>
+                </div>
+            </label>
         </div>
     </div>
 
@@ -63,7 +76,7 @@
 
         <div class=" btn-lg dark m-top-bot-4vh">Desenhos</div>
         <div class="container-fluid slid" id="desenhos">
-            <!-- AQUI FICA O JS COM A CRIACAO DOS CARD -->
+
         </div>
     </div>
 
@@ -71,7 +84,6 @@
 
         <div class=" btn-lg dark m-top-bot-4vh">Animes</div>
         <div class="container-fluid slid" id="animes">
-            <!-- AQUI FICA O JS COM A CRIACAO DOS CARD -->
         </div>
     </div>
 
@@ -84,18 +96,24 @@
 
     </div>
 
-
-
     <!-- FOOTER -->
     <footer>
         <button type="button" class="btn btn-lg blue FooterModile">
             Adicionar filmes
         </button>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js ">
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>

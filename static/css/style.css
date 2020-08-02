@@ -165,8 +165,8 @@
     
     .flip-container {
         display: inline-block;
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100%;
         perspective: 1000px;
     }
     
@@ -186,10 +186,16 @@
     .back {
         position: absolute;
         width: 100%;
-        height: 100%;
         backface-visibility: hidden;
     }
     
     .back {
         transform: rotateY(180deg);
+    }
+    
+    .back-link {
+        margin-top: 15px;
+        vertical-align: center;
+        text-align: center;
+        height: 20vh;
     }

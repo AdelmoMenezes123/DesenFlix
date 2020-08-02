@@ -10,6 +10,10 @@
     margin-bottom: 2px;
 }
 
+li>.span-ep {
+    padding: inherit;
+}
+
 @media screen and (max-width:400px) {
     .img-inicial {
         width: 100%;

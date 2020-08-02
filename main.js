@@ -17,7 +17,7 @@ const filmes = [{
     },
     {
         id: 3,
-        nome: 'Batman   sangue   ruim',
+        nome: 'Batman  sangue   ruim',
         img: '/static/img/capaSeries/sangueRuim.jpeg',
         link: 'https://cdn01.fluehost.com/f/animacoes-dc/hd/42.mp4'
     },

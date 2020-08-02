@@ -87,28 +87,29 @@ function view() {
 
     videos.forEach(data => {
         const li = document.createElement('li')
-        const video = document.createElement('video')
+        const a = document.createElement('a')
         const span = document.createElement('span')
-        const source = document.createElement('source')
+        const button = document.createElement('button')
 
-        span.textContent = "Epsodio:" + data.id
+        span.textContent = "Epsodio: " + data.id
+        span.setAttribute('class', 'span-ep')
 
         li.setAttribute('class', 'list-group-item')
 
-        source.setAttribute('src', `${data.link}`)
-        source.setAttribute('type', 'video/mp4')
-
-        video.setAttribute('allow', ' controls; accelerometer; autoplay; gyroscope; picture-in-picture')
-        video.setAttribute('width', '300')
-
-        video.append('allowfullscreen, controls, autoplay')
-
-        video.setAttribute('controls', '')
-        video.appendChild(source)
+        button.setAttribute('class', 'btn-lg red')
+        button.innerHTML = 'Assistir'
+        a.setAttribute('href', `${data.link}`)
+        a.appendChild(button)
         li.appendChild(span)
-        li.appendChild(video)
+
+        li.appendChild(a)
 
         containerVideos.appendChild(li)
     })
 }
 view()
+
+$('#myAlert').on('closed.bs.alert', function() {
+    // $('.alert').alert()
+    $(".alert").alert('close')
+})

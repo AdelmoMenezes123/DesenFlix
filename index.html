@@ -53,24 +53,17 @@
 
     <div class="jumbotron">
 
+        <style>
+            #switch:checked~.flip-container .flipper {
+                transform: rotateY(180deg);
+            }
+        </style>
+
         <div class=" btn-lg dark m-top-bot-4vh">Filmes</div>
-        <div class="container-fluid slid-fluid slid" style="height: 200px;" id="filmes">
+        <div class="container-fluid slid-fluid slid" style="height: 200px; overflow-y: hidden;" id="filmes">
 
-            <input type="checkbox" id="switch" hidden />
-            <label class="flip-container" for="switch">
+            <!-- js -->
 
-            <div class="flipper">
-                    <div class="front">
-                        <img width="130" height="180" src="/static/img/capaSeries/ponto-ignicao.jpg" />
-                    </div>
-                    <div class="back back-link red">
-                        <a href="http://streamtape.com/get_video?id=D4eAol09z1SkrWw&expires=1596451297&ip=F0AWKRMAKxSHDN&token=PFfj6HCHweFx&stream=1">
-                            <div class="btn btn-primary">ASSISTIR</div>
-                        </a>
-                        <strong class="back-link"><h5>click aqui para voltar</h5></strong>
-                    </div>
-                </div>
-            </label>
         </div>
     </div>
 

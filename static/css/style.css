@@ -202,8 +202,9 @@
     }
     
     .back-link {
-        margin-top: 15px;
+        margin: 0px;
+        margin-bottom: -47px;
         vertical-align: center;
         text-align: center;
-        /* height: 20vh; */
+        height: 20vh;
     }

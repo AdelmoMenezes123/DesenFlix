@@ -42,7 +42,7 @@ const filmes = [{
     },
     {
         id: 7,
-        nome: 'Liga da Justiça Sombria: Guerra de Apokolips',
+        nome: 'Liga da Justiça: Guerra de Apokolips',
         img: '/static/img/capaSeries/apokalipse.jpg',
         link: 'http://streamtape.com/get_video?id=jZO3gbK2K0hz9vr&expires=1596550570&ip=F0AWKRMAKxSHDN&token=SMmDII2MiJjm'
     },
@@ -54,7 +54,7 @@ const filmes = [{
     },
     {
         id: 9,
-        nome: 'Mulher-Maravilha – Linhagem de Sangue',
+        nome: 'Mulher Maravilha: Linhagem de Sangue',
         img: '/static/img/capaSeries/mulhermaravilaLinagemdeSangue.jpg',
         link: 'https://fvs.io/redirector?token=RUJwT1RjRmlhOE9XRDFnSGJiK1BKcGQwc0ZhR2ZsdVh1YjFGVmdLZHp1ZEhoUzY0bEgzeng0ZnAvWkdLZVN2S2ZTMWtWVXBIU0NNWG93TW1LalpUSk5zeFRrTHR2Z3JRQmMxTVRycklwSkpScUVoNXVNRVo2QmhnZzlsUC82RGI4WHhWR0MwVHAxT055SXJnN0UvS3huSTRMMWtRazNJQVFmdz06empiQUtZQnU3Z1FCU1NoMmM5anRUQT09'
     },
@@ -113,8 +113,8 @@ function viewFilme() {
         img.setAttribute('height', '180')
         img.setAttribute('src', `${data.img}`)
 
-        strong1.setAttribute('class', 'back-link')
-        strong2.setAttribute('class', 'back-link')
+        // strong1.setAttribute('class', 'back-link')
+        // strong2.setAttribute('class', 'back-link')
 
         a.setAttribute('href', `${data.link}`)
 

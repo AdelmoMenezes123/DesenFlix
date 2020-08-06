@@ -151,7 +151,7 @@ var videos = [{
                 link: 'https://serieflix.net/blogger/video-play.mp4/?contentId=9fb9c77ebb9d3e47'
             }
         ]
-    }
+    },
 ]
 
 function view() {

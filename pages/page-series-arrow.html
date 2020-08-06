@@ -4,39 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="/static/bootstrap-4.5.0-dist/css/bootstrap.css">
-
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="/static/css/series.css">
-
     <script src="https://kit.fontawesome.com/30f83f736b.js" crossorigin="anonymous"></script>
-    <script defer src="./page-series.js"></script>
-
 </head>
 
 <body>
     <!-- Nav -->
-    <nav class=" " id="nav">
+    <nav class=" navbar navbar-dark green ">
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="pesquisa">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn-lg my-2 my-sm-0 bg-dark text-light" type="submit">Buscar</button>
         </form>
     </nav>
 
     <div class="jumbotron bg-dark">
-        <div class="cardImagem" id="capa">
+        <div class="cardImagem ">
             <!-- JS escrita -->
 
-            <img src=" " class="img-inicial" alt="..." id="capaS">
-            <div class="card-body cardTexto">
-
-                <h1 id="title"></h1>
-
+            <img src="/static/img/capaSerieDC/arrow.jpg" class="img-inicial" alt="...">
+            <div class="card-body cardTexto green">
+                <h1>Arqueiro Verde</h1>
                 <h3>Synopsis:</h3>
-
-                <p class="card-text" id="sinopse">
+                <p class="card-text">
+                    <strong>Arrow, </strong> Inspirada nos quadrinhos do Arqueiro Verde, esta série acompanha as aventuras do playboy que se torna super-herói e luta contra vilões armado apenas com arco e flechas.
                 </p>
             </div>
         </div>
@@ -46,9 +38,8 @@
 
     <div class="jumbotron bg-dark">
         <div class="cardImagem">
-            <ul class="list-group" id="video">
-                <!-- AQUI E OS VIDEOS EM JS -->
-            </ul>
+            <iframe src="https://megahdfilmes.com/api-embed/?type=tvshows&imdb=tt2193021" width="100%" height="500" allowfullscreen="true" scrolling="no" frameborder="0">
+            </iframe>
         </div>
     </div>
 
@@ -63,6 +54,3 @@
 </body>
 
 </html>
-<!-- 
-< iframe src="https://megahdfilmes.com/api-embed/?type=tvshows&imdb=tt2193021" width="100%" height="500" allowfullscreen="true" scrolling="no" frameborder="0">
-    < /iframe> -->

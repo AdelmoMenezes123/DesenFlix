@@ -85,6 +85,12 @@ var series = [{
         "page": "pages/page-series.html",
         "id": "starGirl",
         "img": "static/img/capaSerieDC/StarGirl.jpg"
+    },
+    {
+        "id": 3,
+        "page": "pages/page-series-arrow.html",
+        "id": "arrow",
+        "img": "static/img/capaSerieDC/arrow.jpg"
     }
 ]
 

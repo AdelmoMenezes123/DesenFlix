@@ -1,6 +1,6 @@
+const containerNav = document.querySelector('#nav');
 const containerVideos = document.querySelector('#video');
-// const containerCapa = document.querySelector('#capa');
-
+const containerCapa = document.querySelector('#capa');
 const containerCapaS = document.querySelector('#capaS');
 const containertitle = document.querySelector('#title');
 const containerSinopse = document.querySelector('#sinopse');
@@ -14,6 +14,7 @@ var videos = [{
             "não esperava que seu padrasto, Pat Dugan (Luke Wilson), costumava ser Stripesy, o braço direito do" +
             "herói Starman (Joel McHale). Armada com seu bastão mágico, ela vai acabar inspirando uma nova geração" +
             "de heróis inusitados.",
+        "cor": "blue",
         "links": [{
                 id: 1,
                 link: 'https://bellareceitas.com/torta-cremosa-de-sardinha/'
@@ -67,6 +68,7 @@ var videos = [{
         "sinopse": "<strong>Kate Kane</strong>, uma jovem lésbica, decide utilizar suas altas habilidades de combate para luta contra o crime em Gotham City." +
             "Armada apenas com sua paixão por justiça e falando sempre o que pensa, Kate ainda precisa superar" +
             "seus próprios demônios antes de se tornar um símbolo de esperança para os cidadãos de Gotham.",
+        "cor": "red",
         "links": [{
                 id: 1,
                 link: 'https://serieflix.net/blogger/video-play.mp4/?contentId=60c190e78647ba6b'
@@ -169,7 +171,8 @@ function view() {
             containerCapaS.setAttribute('src', `${data.imgCapa}`);
             containertitle.innerHTML = `${data.nome}`;
             containerSinopse.innerHTML = `${data.sinopse}`;
-
+            containerCapa.setAttribute('class', `${data.cor}`)
+            containerNav.setAttribute('class', `navbar navbar-dark NavLogoMobile ${data.cor}`)
             data.links.forEach(link => {
                 const li = document.createElement('li')
                 const a = document.createElement('a')
@@ -181,7 +184,7 @@ function view() {
 
                 li.setAttribute('class', 'list-group-item')
 
-                button.setAttribute('class', 'btn-lg red')
+                button.setAttribute('class', `btn-lg ${data.cor}`)
                 button.innerHTML = 'Assistir'
                 a.setAttribute('href', `${link.link}`)
                 a.appendChild(button)

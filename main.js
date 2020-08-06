@@ -7,61 +7,61 @@ const containerSeries = document.querySelector('#series');
 const filmes = [{
         id: 1,
         nome: 'Liga da Justiça: ponto de ingnição',
-        img: '/static/img/capaSeries/ponto-ignicao.jpg',
+        img: '/static/img/capaFilmesDC/ponto-ignicao.jpg',
         link: 'http://streamtape.com/get_video?id=D4eAol09z1SkrWw&expires=1596548874&ip=F0AWKRMAKxSHDN&token=LFcbx9nXPCBI'
     },
     {
         id: 2,
         nome: 'Liga da Justiça: Trono da Atlântida',
-        img: '/static/img/capaSeries/atlanta.jpg',
+        img: '/static/img/capaFilmesDC/atlanta.jpg',
         link: 'http://gofilmes.me/play/?dVBkSmZVQlg1Mi9xa1BzM0tSSlBFM3I0ZGpWY0JabS9rRXdGTmcrMjArVlFacGR0NTY5bnZaUWYvaUwrOG1ZWmtqWnBMN0toZDRMQ2hhd2ordm1nL0E9PQ=='
     },
     {
         id: 3,
         nome: 'Batman   sangue   ruim',
-        img: '/static/img/capaSeries/sangueRuim.jpeg',
+        img: '/static/img/capaFilmesDC/sangueRuim.jpeg',
         link: 'https://cdn01.fluehost.com/f/animacoes-dc/hd/42.mp4'
     },
     {
         id: 4,
         nome: 'Liga da Justiça vs. Jovens Titãs',
-        img: '/static/img/capaSeries/jovensTitans.jpg',
+        img: '/static/img/capaFilmesDC/jovensTitans.jpg',
         link: 'http://streamtape.com/get_video?id=Ok7DaA2o4yi11Q&expires=1596549087&ip=F0AWKRMAKxSHDN&token=QNjAlzSDpSa4'
     },
     {
         id: 5,
         nome: 'Liga da Justiça: Guerra',
-        img: '/static/img/capaSeries/LigadaJusticaWAR.jpg',
+        img: '/static/img/capaFilmesDC/LigadaJusticaWAR.jpg',
         link: 'http://streamtape.com/get_video?id=vLXKKvL0e7tblm&expires=1596549823&ip=F0AWKRMAKxSHDN&token=EzvoIxEsyiuM'
     },
     {
         id: 6,
         nome: 'Liga da Justiça: Deuses e Monstros',
-        img: '/static/img/capaSeries/deusesemonstros.jpg',
+        img: '/static/img/capaFilmesDC/deusesemonstros.jpg',
         link: 'http://streamtape.com/get_video?id=dLklYJyXD9fkmZe&expires=1596550220&ip=F0AWKRMAKxSHDN&token=67unyeuBUM_0'
     },
     {
         id: 7,
         nome: 'Liga da Justiça: Guerra de Apokolips',
-        img: '/static/img/capaSeries/apokalipse.jpg',
+        img: '/static/img/capaFilmesDC/apokalipse.jpg',
         link: 'http://streamtape.com/get_video?id=jZO3gbK2K0hz9vr&expires=1596550570&ip=F0AWKRMAKxSHDN&token=SMmDII2MiJjm'
     },
     {
         id: 8,
         nome: 'A Morte e o Retorno do Superman',
-        img: '/static/img/capaSeries/morteSuperMan.jpg',
+        img: '/static/img/capaFilmesDC/morteSuperMan.jpg',
         link: 'http://streamtape.com/get_video?id=m6kGK2RG8AHb0Vo&expires=1596550819&ip=F0AWKRMAKxSHDN&token=GGzBM2WpruZw'
     },
     {
         id: 9,
         nome: 'Mulher Maravilha: Linhagem de Sangue',
-        img: '/static/img/capaSeries/mulhermaravilaLinagemdeSangue.jpg',
+        img: '/static/img/capaFilmesDC/mulhermaravilaLinagemdeSangue.jpg',
         link: 'https://fvs.io/redirector?token=RUJwT1RjRmlhOE9XRDFnSGJiK1BKcGQwc0ZhR2ZsdVh1YjFGVmdLZHp1ZEhoUzY0bEgzeng0ZnAvWkdLZVN2S2ZTMWtWVXBIU0NNWG93TW1LalpUSk5zeFRrTHR2Z3JRQmMxTVRycklwSkpScUVoNXVNRVo2QmhnZzlsUC82RGI4WHhWR0MwVHAxT055SXJnN0UvS3huSTRMMWtRazNJQVFmdz06empiQUtZQnU3Z1FCU1NoMmM5anRUQT09'
     },
     {
         id: 10,
         nome: 'A Morte do Superman',
-        img: '/static/img/capaSeries/AMortedoSuperman.jpg',
+        img: '/static/img/capaFilmesDC/AMortedoSuperman.jpg',
         link: 'https://fvs.io/redirector?token=TVVLYjRMS05SdDZHUC9GTW96L0hraHVJcEVRZm1jbWxZZkN4V3R6cG5IU3hMV2NXbGVDYlRSS1BwTlJNQnlXdjBnV2RNUEkxM0VGVk5NbVA0RUYwNHI4QlJwc1h2M2Y3N2xlN3hOT2VWaUUrekF4aWEwNDIzSGhiNVE0eTRJc3IzVC9ndm5URDE4TDRtdlcyV1dhcTZpeHFFNDd1Uzd3U0tWcz06b1FqYXRibW14N2p1eUhrOHFiS0FCdz09'
     }
 ]
@@ -75,10 +75,18 @@ const animes = [{
 }]
 
 var series = [{
-    id: 1,
-    page: "pages/series/batwoman/batwoman.html",
-    img: "static/img/capaSeries/batwoman.jpg"
-}]
+        "id": 1,
+        "page": "pages/page-series.html",
+        "id": "batwoman",
+        "img": "static/img/capaSerieDC/batwoman.jpg"
+    },
+    {
+        "id": 2,
+        "page": "pages/page-series.html",
+        "id": "starGirl",
+        "img": "static/img/capaSerieDC/StarGirl.jpg"
+    }
+]
 
 function viewFilme() {
 
@@ -188,7 +196,7 @@ function viewSeries() {
         const div = document.createElement('div')
         const img = document.createElement('img')
 
-        a.setAttribute('href', `${data.page}`)
+        a.setAttribute('href', `${data.page}?id=${data.id}`)
         div.setAttribute('class', 'cardImagem')
         img.setAttribute('src', `${data.img}`)
         img.setAttribute('class', 'img')

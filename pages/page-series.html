@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/static/css/series.css">
 
     <script src="https://kit.fontawesome.com/30f83f736b.js" crossorigin="anonymous"></script>
-    <script defer src="./batwoman.js"></script>
+    <script defer src="./page-series.js"></script>
 
 </head>
 
@@ -26,14 +26,18 @@
     </nav>
 
     <div class="jumbotron bg-dark">
-        <div class="cardImagem red">
-            <img src="/static/img/capaSeries/batwoman.jpg" class="img-inicial" alt="...">
+        <div class="cardImagem red" id="capa">
+            <!-- JS escrita -->
+
+            <img src=" " class="img-inicial" alt="..." id="capaS">
             <div class="card-body cardTexto">
-                <h1>Batwoman</h1>
+
+                <h1 id="title"></h1>
+
                 <h3>Synopsis:</h3>
-                <p class="card-text">
-                    <strong>Kate Kane</strong>, uma jovem lésbica, decide utilizar suas altas habilidades de combate para luta contra o crime em Gotham City. Armada apenas com sua paixão por justiça e falando sempre o que pensa, Kate ainda precisa superar
-                    seus próprios demônios antes de se tornar um símbolo de esperança para os cidadãos de Gotham.</p>
+
+                <p class="card-text" id="sinopse">
+                </p>
             </div>
         </div>
     </div>

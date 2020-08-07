@@ -6,6 +6,69 @@ const containertitle = document.querySelector('#title');
 const containerSinopse = document.querySelector('#sinopse');
 
 var videos = [{
+        "id": "shild06",
+        "imgCapa": "/static/img/capaSerieDC/agentsShild.jpg",
+        "nome": "<h1>Agents of S.H.I.E.L.D. temporada 6</h1>",
+        "sinopse": "<strong>Agents of S.H.I.E.L.D.</strong>, Após os acontecimentos em Nova York, retratados " +
+            "em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão)" +
+            "deve mobilizar seus integrantes para solucionar vários casos relacionados com super-heróis.  " +
+            "A equipe é liderada pelo agente Phil Coulson ",
+        "cor": "blue",
+        "links": [{
+                id: 1,
+                link: 'https://mixdrop.to/e/qll60r8mb7jqk7'
+            },
+            {
+                id: 2,
+                link: 'https://mixdrop.to/e/3nn0wx7qilqrgm'
+            },
+            {
+                id: 3,
+                link: 'https://mixdrop.to/e/n00mer6lh8v0gz'
+            },
+            {
+                id: 4,
+                link: 'https://mixdrop.to/e/dqqemwxlt73k0jj'
+            },
+            {
+                id: 5,
+                link: 'https://mixdrop.to/e/rwwd74xmc9xlp4'
+            },
+            {
+                id: 6,
+                link: 'https://mixdrop.to/e/8447mdr6sd43dg'
+            },
+            {
+                id: 7,
+                link: 'https://mixdrop.to/e/4nn7jzkwcoj9go'
+            },
+            {
+                id: 8,
+                link: 'https://mixdrop.to/e/n00merv8im07v7'
+            },
+            {
+                id: 9,
+                link: 'https://mixdrop.to/e/gnno8xemcwd0jq9'
+            },
+            {
+                id: 10,
+                link: 'https://mixdrop.to/e/pkkmdqzzsg7619l'
+            },
+            {
+                id: 11,
+                link: 'https://mixdrop.to/e/6qqdxgl9aqzlen'
+            },
+            {
+                id: 12,
+                link: 'https://mixdrop.to/e/dqqemw1ktz1ek8'
+            },
+            {
+                id: 13,
+                link: 'https://mixdrop.to/e/1vv6kj6mu34npz'
+            }
+        ]
+    },
+    {
         "id": "pennyworth",
         "imgCapa": "/static/img/capaSerieDC/pennyworth.jpg",
         "nome": "<h1>pennyworth</h1>",

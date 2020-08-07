@@ -99,10 +99,16 @@ var series = [{
         "img": "static/img/capaSerieDC/pennyworth.jpg"
     },
     {
-        "id": 3,
+        "id": 5,
         "page": "pages/page-series.html",
         "id": "watchman",
         "img": "static/img/capaSerieDC/watchman.jpg"
+    },
+    {
+        "id": 6,
+        "page": "pages/page-series.html",
+        "id": "shild06",
+        "img": "static/img/capaSerieDC/agentsShild.jpg"
     }
 ]
 

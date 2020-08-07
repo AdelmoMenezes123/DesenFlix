@@ -17,47 +17,47 @@ var videos = [{
         "cor": "blue",
         "links": [{
                 id: 1,
-                link: 'https://bellareceitas.com/torta-cremosa-de-sardinha/'
+                link: 'https://ulala.us/v/py3wmbmmk4k0y6r/'
             },
             {
                 id: 2,
-                link: 'https://bellareceitas.com/coxinha-saudavel'
+                link: 'https://play.assistir.io/embed/b70d41d80e3dbe31bbd8'
             },
             {
                 id: 3,
-                link: 'https://bellareceitas.com/pao-de-queijo-mineiro'
+                link: 'https://play.assistir.io/embed/ccd4211ce43f309bc0ea'
             },
             {
                 id: 4,
-                link: 'https://bellareceitas.com/empadinha-cremosa-de-carne-seca/'
+                link: 'https://play.assistir.io/embed/4372edec29b93cab9d72'
             },
             {
                 id: 5,
-                link: 'https://bellareceitas.com/bolo-vulcao-de-leite-ninho/'
+                link: 'https://play.assistir.io/embed/cd52936e27cbd0ff683d'
             },
             {
                 id: 6,
-                link: 'https://bellareceitas.com/bolo-fofinho-de-laranja/'
+                link: 'https://play.assistir.io/embed/1bd321f8a9b239f6f4ec'
             },
             {
                 id: 7,
-                link: 'https://bellareceitas.com/lasanha-de-frango-cremosa/'
+                link: 'https://play.assistir.io/embed/98366a4a986bc33f3d3e'
             },
             {
                 id: 8,
-                link: 'https://bellareceitas.com/sopa-verde/'
+                link: ''
             },
             {
                 id: 9,
-                link: 'https://bellareceitas.com/batata-gratinada-com-queijo-e-frango/'
+                link: ''
             },
             {
                 id: 10,
-                link: 'https://bellareceitas.com/cookies-com-gotas-de-chocolate'
+                link: ''
             },
             {
                 id: 11,
-                link: 'https://bellareceitas.com/frango-a-role/'
+                link: ''
             }
         ]
     },

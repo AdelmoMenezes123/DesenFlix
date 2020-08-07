@@ -17,7 +17,30 @@ var videos = [{
         "cor": "red",
         "links": [{
                 id: 1,
-                link: 'https:////a-delivery11.mxdcontent.net/v/342490bc172e551a1d7191c976abe1d1.mp4?s=6UaTMxALwpSG6Z8Hzd0MJw&e=1596847244'
+                link: ''
+            },
+            {
+                id: 2,
+                link: ''
+            },
+            {
+                id: 3,
+                link: ''
+            }
+        ]
+    },
+    {
+        "id": "watchman",
+        "imgCapa": "/static/img/capaSerieDC/watchman.jpg",
+        "nome": "<h1>Watchman</h1>",
+        "sinopse": "<strong>Watchman</strong>, Situada em uma realidade alternativa onde super-heróis são tratados como bandidos," +
+            "Watchmen abraça a nostalgia da graphic novel original inovadora" +
+            "e segue em busca de abrir novos caminhos próprios.",
+
+        "cor": "blue",
+        "links": [{
+                id: 1,
+                link: 'https://mixdrop.to/e/j99q0pqraw9wm0'
             },
             {
                 id: 2,
@@ -50,29 +73,6 @@ var videos = [{
             {
                 id: 9,
                 link: 'https://mixdrop.to/e/7rr9l3kphk86zx'
-            }
-        ]
-    },
-    {
-        "id": "watchman",
-        "imgCapa": "/static/img/capaSerieDC/watchman.jpg",
-        "nome": "<h1>Watchman</h1>",
-        "sinopse": "<strong>Watchman</strong>, Situada em uma realidade alternativa onde super-heróis são tratados como bandidos," +
-            "Watchmen abraça a nostalgia da graphic novel original inovadora" +
-            "e segue em busca de abrir novos caminhos próprios.",
-
-        "cor": "blue",
-        "links": [{
-                id: 1,
-                link: ''
-            },
-            {
-                id: 2,
-                link: ''
-            },
-            {
-                id: 3,
-                link: ''
             }
         ]
     },

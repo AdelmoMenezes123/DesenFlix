@@ -91,6 +91,18 @@ var series = [{
         "page": "pages/page-series-arrow.html",
         "id": "arrow",
         "img": "static/img/capaSerieDC/arrow.jpg"
+    },
+    {
+        "id": 4,
+        "page": "pages/page-series.html",
+        "id": "pennyworth",
+        "img": "static/img/capaSerieDC/pennyworth.jpg"
+    },
+    {
+        "id": 3,
+        "page": "pages/page-series.html",
+        "id": "watchman",
+        "img": "static/img/capaSerieDC/watchman.jpg"
     }
 ]
 

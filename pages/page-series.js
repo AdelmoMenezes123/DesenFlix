@@ -6,6 +6,77 @@ const containertitle = document.querySelector('#title');
 const containerSinopse = document.querySelector('#sinopse');
 
 var videos = [{
+        "id": "pennyworth",
+        "imgCapa": "/static/img/capaSerieDC/pennyworth.jpg",
+        "nome": "<h1>pennyworth</h1>",
+        "sinopse": "<strong>pennyworth</strong>, A origem de Alfred, o famoso mordomo de Bruce Wayne" +
+            ", em uma época onde ele era apenas um soldado britânico de 22 anos do Serviço Aéreo Especial do Reino Unido." +
+            "Na Londres de 1960, Alfred é contratado para trabalhar como segurança do bilionário Thomas Wayne," +
+            "herói Starman (Joel McHale). Armada com seu bastão mágico, ela vai acabar inspirando uma nova geração" +
+            "e os dois tornam-se amigos improváveis.",
+        "cor": "red",
+        "links": [{
+                id: 1,
+                link: 'https:////a-delivery11.mxdcontent.net/v/342490bc172e551a1d7191c976abe1d1.mp4?s=6UaTMxALwpSG6Z8Hzd0MJw&e=1596847244'
+            },
+            {
+                id: 2,
+                link: 'https://mixdrop.to/e/pkk41zk8cgww10d'
+            },
+            {
+                id: 3,
+                link: 'https://mixdrop.to/e/zppo6kpdigmv4vv'
+            },
+            {
+                id: 4,
+                link: 'https://mixdrop.to/e/gnn0pen0tr43px'
+            },
+            {
+                id: 5,
+                link: 'https://mixdrop.to/e/0vv9npvlte0o9v'
+            },
+            {
+                id: 6,
+                link: 'https://mixdrop.to/e/gnn0pen6bem193'
+            },
+            {
+                id: 7,
+                link: 'https://mixdrop.to/e/1vv9rmvrb9kv9g'
+            },
+            {
+                id: 8,
+                link: 'https://mixdrop.to/e/zppo6k1gfgoexwp'
+            },
+            {
+                id: 9,
+                link: 'https://mixdrop.to/e/7rr9l3kphk86zx'
+            }
+        ]
+    },
+    {
+        "id": "watchman",
+        "imgCapa": "/static/img/capaSerieDC/watchman.jpg",
+        "nome": "<h1>Watchman</h1>",
+        "sinopse": "<strong>Watchman</strong>, Situada em uma realidade alternativa onde super-heróis são tratados como bandidos," +
+            "Watchmen abraça a nostalgia da graphic novel original inovadora" +
+            "e segue em busca de abrir novos caminhos próprios.",
+
+        "cor": "blue",
+        "links": [{
+                id: 1,
+                link: ''
+            },
+            {
+                id: 2,
+                link: ''
+            },
+            {
+                id: 3,
+                link: ''
+            }
+        ]
+    },
+    {
         "id": "starGirl",
         "imgCapa": "/static/img/capaSerieDC/StarGirl.jpg",
         "nome": "<h1>Stargirl</h1>",
@@ -45,19 +116,23 @@ var videos = [{
             },
             {
                 id: 8,
-                link: ''
+                link: 'https://play.assistir.io/embed/924e16c772dcb718fcd0'
             },
             {
                 id: 9,
-                link: ''
+                link: 'https://play.assistir.io/embed/35d13102459f8784f1a2'
             },
             {
                 id: 10,
-                link: ''
+                link: 'https://play.assistir.io/embed/fbd3fec3772fba142a46'
             },
             {
                 id: 11,
-                link: ''
+                link: 'https://play.assistir.io/embed/7d1a08da4919b5bb95bf'
+            },
+            {
+                id: 11,
+                link: 'https://play.assistir.io/embed/6aec340b8426490977ef'
             }
         ]
     },

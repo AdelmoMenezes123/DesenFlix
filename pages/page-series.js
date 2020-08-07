@@ -61,6 +61,108 @@ var videos = [{
         ]
     },
     {
+        "id": "kripton01",
+        "imgCapa": "/static/img/capaSerieDC/kripton.jpg",
+        "nome": "<h1>kripton temporada 1</h1>",
+        "sinopse": "<strong>kripton</strong>, Anos antes de o Super-Homem se tornar a lenda que o mundo " +
+            "inteiro conhece, a família El era envergonhada e excluída da sociedade. O drama acompanha o" +
+            " avô do Super-Homem, que aos poucos transforma um planeta em " +
+            "desordem e crise em um lugar com igualdade e esperança.",
+        "cor": "red",
+        "links": [{
+                id: 1,
+                link: 'https://mixdrop.to/e/pkkmze7wcg773dm'
+            },
+            {
+                id: 2,
+                link: 'https://mixdrop.to/e/n00mp9d3slozvq'
+            },
+            {
+                id: 3,
+                link: 'https://mixdrop.to/e/rwwdnq7kivvm4go'
+            },
+            {
+                id: 4,
+                link: 'https://mixdrop.to/e/gnnoel8kbnvzxe'
+            },
+            {
+                id: 5,
+                link: 'https://mixdrop.to/e/6qqdl6xqho91p7'
+            },
+            {
+                id: 6,
+                link: 'https://mixdrop.to/e/vnnl6ejrh7k8n0'
+            },
+            {
+                id: 7,
+                link: 'https://mixdrop.to/e/3nn0p1wvin8p0o'
+            },
+            {
+                id: 8,
+                link: 'https://mixdrop.to/e/dqqe10m7ul8p8e'
+            },
+            {
+                id: 9,
+                link: 'https://mixdrop.to/e/pkkmzerztlll7'
+            },
+            {
+                id: 10,
+                link: 'https://mixdrop.to/e/9nnov79xfkzj9z'
+            }
+        ]
+    },
+    {
+        "id": "kripton02",
+        "imgCapa": "/static/img/capaSerieDC/krip02.jpeg",
+        "nome": "<h1>kripton temporada 2</h1>",
+        "sinopse": "<strong>kripton</strong>, Anos antes de o Super-Homem se tornar a lenda que o mundo " +
+            "inteiro conhece, a família El era envergonhada e excluída da sociedade. O drama acompanha o" +
+            " avô do Super-Homem, que aos poucos transforma um planeta em " +
+            "desordem e crise em um lugar com igualdade e esperança.",
+        "cor": "green",
+        "links": [{
+                id: 1,
+                link: 'https://mixdrop.to/e/l66we3zra7qg7v'
+            },
+            {
+                id: 2,
+                link: 'https://mixdrop.to/e/qll6pqe3to87wm'
+            },
+            {
+                id: 3,
+                link: 'https://mixdrop.to/e/0vvrp8l1cxlnwo'
+            },
+            {
+                id: 4,
+                link: 'https://mixdrop.to/e/3nn0p81lclodr6'
+            },
+            {
+                id: 5,
+                link: 'https://mixdrop.to/e/rwwdn33xcn618w'
+            },
+            {
+                id: 6,
+                link: 'https://mixdrop.to/e/j993pmm3f7el11x'
+            },
+            {
+                id: 7,
+                link: 'https://mixdrop.to/e/mddq833ntjeln4'
+            },
+            {
+                id: 8,
+                link: 'https://mixdrop.to/e/vnnl633kbq03pr'
+            },
+            {
+                id: 9,
+                link: 'https://mixdrop.to/e/l66we33rfeqpq6'
+            },
+            {
+                id: 10,
+                link: 'https://mixdrop.to/e/o77np33mhll4kk4'
+            }
+        ]
+    },
+    {
         "id": "DoomPatrol",
         "imgCapa": "/static/img/capaSerieDC/domPatrial.jpg",
         "nome": "<h1>Doom Patrol Temporada 2</h1>",

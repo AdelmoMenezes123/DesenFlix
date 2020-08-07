@@ -121,6 +121,18 @@ var series = [{
         "page": "pages/page-series.html",
         "id": "DoomPatrol",
         "img": "static/img/capaSerieDC/domPatrial.jpg"
+    },
+    {
+        "id": 9,
+        "page": "pages/page-series.html",
+        "id": "kripton01",
+        "img": "static/img/capaSerieDC/kripton.jpg"
+    },
+    {
+        "id": 10,
+        "page": "pages/page-series.html",
+        "id": "kripton02",
+        "img": "static/img/capaSerieDC/krip02.jpeg"
     }
 ]
 

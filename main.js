@@ -115,6 +115,12 @@ var series = [{
         "page": "pages/page-series.html",
         "id": "shild07",
         "img": "static/img/capaSerieDC/agentsShildtemporada7.jpg"
+    },
+    {
+        "id": 8,
+        "page": "pages/page-series.html",
+        "id": "DoomPatrol",
+        "img": "static/img/capaSerieDC/domPatrial.jpg"
     }
 ]
 

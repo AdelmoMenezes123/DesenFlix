@@ -61,6 +61,49 @@ var videos = [{
         ]
     },
     {
+        "id": "DoomPatrol",
+        "imgCapa": "/static/img/capaSerieDC/domPatrial.jpg",
+        "nome": "<h1>Doom Patrol Temporada 2</h1>",
+        "sinopse": "<strong>Agents of S.H.I.E.L.D.</strong>, Os membros da Patrulha da Perdição sofreram acidentes  " +
+            "horríveis que lhes deram habilidades sobre-humanas - mas também os deixaram marcados e desfigurados. Traumatizados e" +
+            "oprimidos, a equipe encontrou um propósito através de The Chief, que os reuniu para investigar os fenômenos mais estranhos" +
+            " existentes - e para proteger a Terra do que eles encontram.",
+        "cor": "yellow",
+        "links": [{
+                id: 1,
+                link: 'https://play.assistir.io/embed/b7d0ef8b680d7ae73fa1'
+            },
+            {
+                id: 2,
+                link: 'https://play.assistir.io/embed/c813af07bb428f2363c8'
+            },
+            {
+                id: 3,
+                link: 'https://play.assistir.io/embed/1cd7e96172575f48dca3'
+            },
+            {
+                id: 4,
+                link: 'https://play.assistir.io/embed/d1c2ad33e821d071ae97'
+            },
+            {
+                id: 5,
+                link: 'https://play.assistir.io/embed/66cf307c75059e0e89af'
+            },
+            {
+                id: 6,
+                link: 'https://play.assistir.io/embed/285358a4a74b08f8121f'
+            },
+            {
+                id: 7,
+                link: 'https://play.assistir.io/embed/e9f60b32a6607b587aad'
+            },
+            {
+                id: 8,
+                link: 'https://play.assistir.io/embed/d1cef5a79b78a1a48d80'
+            }
+        ]
+    },
+    {
         "id": "shild06",
         "imgCapa": "/static/img/capaSerieDC/agentsShild.jpg",
         "nome": "<h1>Agents of S.H.I.E.L.D. temporada 6</h1>",

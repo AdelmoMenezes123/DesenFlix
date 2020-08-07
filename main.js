@@ -94,7 +94,7 @@ var series = [{
     },
     {
         "id": 4,
-        "page": "pages/page-series.html",
+        "page": "pages/page-series-pennyworth.html",
         "id": "pennyworth",
         "img": "static/img/capaSerieDC/pennyworth.jpg"
     },
@@ -106,33 +106,63 @@ var series = [{
     },
     {
         "id": 6,
-        "page": "pages/page-series.html",
-        "id": "shild06",
+        "page": "pages/page-series-shild.html",
+        "id": "shild",
         "img": "static/img/capaSerieDC/agentsShild.jpg"
     },
     {
         "id": 7,
         "page": "pages/page-series.html",
-        "id": "shild07",
-        "img": "static/img/capaSerieDC/agentsShildtemporada7.jpg"
-    },
-    {
-        "id": 8,
-        "page": "pages/page-series.html",
         "id": "DoomPatrol",
         "img": "static/img/capaSerieDC/domPatrial.jpg"
     },
     {
-        "id": 9,
+        "id": 8,
         "page": "pages/page-series.html",
         "id": "kripton01",
         "img": "static/img/capaSerieDC/kripton.jpg"
     },
     {
-        "id": 10,
+        "id": 9,
         "page": "pages/page-series.html",
         "id": "kripton02",
         "img": "static/img/capaSerieDC/krip02.jpeg"
+    },
+    {
+        "id": 10,
+        "page": "pages/page-series-swamp.html",
+        "id": "swamp",
+        "img": "static/img/capaSerieDC/swamp.jpg"
+    },
+    {
+        "id": 11,
+        "page": "pages/page-series-gotham.html",
+        "id": "gotham",
+        "img": "static/img/capaSerieDC/gotham.jpeg"
+    },
+    {
+        "id": 12,
+        "page": "pages/page-series-raio-negro.html",
+        "id": "raio-negro",
+        "img": "static/img/capaSerieDC/raionegro.jpg"
+    },
+    {
+        "id": 13,
+        "page": "pages/page-series-super-girl.html",
+        "id": "SuperGirl",
+        "img": "static/img/capaSerieDC/superGirl.jpg"
+    },
+    {
+        "id": 14,
+        "page": "pages/page-series-tomorrow.html",
+        "id": "tomorrow",
+        "img": "static/img/capaSerieDC/tomorrow.jpg"
+    },
+    {
+        "id": 15,
+        "page": "pages/page-series-flash.html",
+        "id": "flash",
+        "img": "static/img/capaSerieDC/flash.jpg"
     }
 ]
 

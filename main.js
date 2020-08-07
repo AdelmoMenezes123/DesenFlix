@@ -109,6 +109,12 @@ var series = [{
         "page": "pages/page-series.html",
         "id": "shild06",
         "img": "static/img/capaSerieDC/agentsShild.jpg"
+    },
+    {
+        "id": 7,
+        "page": "pages/page-series.html",
+        "id": "shild07",
+        "img": "static/img/capaSerieDC/agentsShildtemporada7.jpg"
     }
 ]
 

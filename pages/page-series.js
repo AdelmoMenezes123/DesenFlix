@@ -6,6 +6,61 @@ const containertitle = document.querySelector('#title');
 const containerSinopse = document.querySelector('#sinopse');
 
 var videos = [{
+        "id": "shild07",
+        "imgCapa": "/static/img/capaSerieDC/agentsShildtemporada7.jpg",
+        "nome": "<h1>Agents of S.H.I.E.L.D. temporada 7</h1>",
+        "sinopse": "<strong>Agents of S.H.I.E.L.D.</strong>, Após os acontecimentos em Nova York, retratados " +
+            "em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão)" +
+            "deve mobilizar seus integrantes para solucionar vários casos relacionados com super-heróis.  " +
+            "A equipe é liderada pelo agente Phil Coulson ",
+        "cor": "blue",
+        "links": [{
+                id: 1,
+                link: 'https://play.assistir.io/embed/8878e291552f001f6769'
+            },
+            {
+                id: 2,
+                link: 'https://play.assistir.io/embed/94759a9000cbda3a6571'
+            },
+            {
+                id: 3,
+                link: 'https://play.assistir.io/embed/c8ffcaa696a5a1663917'
+            },
+            {
+                id: 4,
+                link: 'https://play.assistir.io/embed/e8f703b5be647f1cbae6'
+            },
+            {
+                id: 5,
+                link: 'https://play.assistir.io/embed/38826127f093500461d9'
+            },
+            {
+                id: 6,
+                link: 'https://play.assistir.io/embed/7c8a627e8e28785d9992'
+            },
+            {
+                id: 7,
+                link: 'https://play.assistir.io/embed/74dbf5f7ac4372c5b9af'
+            },
+            {
+                id: 8,
+                link: 'https://play.assistir.io/embed/dd2108188fb7bf8aa5b3'
+            },
+            {
+                id: 9,
+                link: 'https://mixdrop.to/e/o77wwp6mfodqnx'
+            },
+            {
+                id: 10,
+                link: 'https://play.assistir.io/embed/8723fae7feda6f6a9cb7'
+            },
+            {
+                id: 11,
+                link: 'https://play.assistir.io/embed/a7d8c2c43d504b2babd8'
+            }
+        ]
+    },
+    {
         "id": "shild06",
         "imgCapa": "/static/img/capaSerieDC/agentsShild.jpg",
         "nome": "<h1>Agents of S.H.I.E.L.D. temporada 6</h1>",
@@ -194,7 +249,7 @@ var videos = [{
                 link: 'https://play.assistir.io/embed/7d1a08da4919b5bb95bf'
             },
             {
-                id: 11,
+                id: 12,
                 link: 'https://play.assistir.io/embed/6aec340b8426490977ef'
             }
         ]

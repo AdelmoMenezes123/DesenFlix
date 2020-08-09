@@ -5,64 +5,79 @@ const containerSeries = document.querySelector('#series');
 
 
 const filmes = [{
-        id: 1,
-        nome: 'Liga da Justiça: ponto de ingnição',
-        img: '/static/img/capaFilmesDC/ponto-ignicao.jpg',
-        link: 'http://streamtape.com/get_video?id=D4eAol09z1SkrWw&expires=1596548874&ip=F0AWKRMAKxSHDN&token=LFcbx9nXPCBI'
+        "id": "liga-da-justica-ponto-de-ignicao",
+        "img": '/static/img/capaFilmesDC/ponto-ignicao.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 2,
-        nome: 'Liga da Justiça: Trono da Atlântida',
-        img: '/static/img/capaFilmesDC/atlanta.jpg',
-        link: 'http://gofilmes.me/play/?dVBkSmZVQlg1Mi9xa1BzM0tSSlBFM3I0ZGpWY0JabS9rRXdGTmcrMjArVlFacGR0NTY5bnZaUWYvaUwrOG1ZWmtqWnBMN0toZDRMQ2hhd2ordm1nL0E9PQ=='
+        "id": "liga-da-justica-trono-de-atlanta",
+        "img": '/static/img/capaFilmesDC/atlanta.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 3,
-        nome: 'Batman   sangue   ruim',
-        img: '/static/img/capaFilmesDC/sangueRuim.jpeg',
-        link: 'https://cdn01.fluehost.com/f/animacoes-dc/hd/42.mp4'
+        "id": "batman-sangue-ruin",
+        "img": '/static/img/capaFilmesDC/sangueRuim.jpeg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 4,
-        nome: 'Liga da Justiça vs. Jovens Titãs',
-        img: '/static/img/capaFilmesDC/jovensTitans.jpg',
-        link: 'http://streamtape.com/get_video?id=Ok7DaA2o4yi11Q&expires=1596549087&ip=F0AWKRMAKxSHDN&token=QNjAlzSDpSa4'
+        "id": "o-filho-do-batman",
+        "img": '/static/img/capaFilmesDC/filho-batman.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 5,
-        nome: 'Liga da Justiça: Guerra',
-        img: '/static/img/capaFilmesDC/LigadaJusticaWAR.jpg',
-        link: 'http://streamtape.com/get_video?id=vLXKKvL0e7tblm&expires=1596549823&ip=F0AWKRMAKxSHDN&token=EzvoIxEsyiuM'
+        "id": "batman-x-roben",
+        "img": '/static/img/capaFilmesDC/batman-x-robem.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 6,
-        nome: 'Liga da Justiça: Deuses e Monstros',
-        img: '/static/img/capaFilmesDC/deusesemonstros.jpg',
-        link: 'http://streamtape.com/get_video?id=dLklYJyXD9fkmZe&expires=1596550220&ip=F0AWKRMAKxSHDN&token=67unyeuBUM_0'
+        "id": "batman-silencio",
+        "img": '/static/img/capaFilmesDC/batman-silencio.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 7,
-        nome: 'Liga da Justiça: Guerra de Apokolips',
-        img: '/static/img/capaFilmesDC/apokalipse.jpg',
-        link: 'http://streamtape.com/get_video?id=jZO3gbK2K0hz9vr&expires=1596550570&ip=F0AWKRMAKxSHDN&token=SMmDII2MiJjm'
+        "id": "piada-mortal",
+        "img": '/static/img/capaFilmesDC/piadamortal.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 8,
-        nome: 'A Morte e o Retorno do Superman',
-        img: '/static/img/capaFilmesDC/morteSuperMan.jpg',
-        link: 'http://streamtape.com/get_video?id=m6kGK2RG8AHb0Vo&expires=1596550819&ip=F0AWKRMAKxSHDN&token=GGzBM2WpruZw'
+        "id": "suicida",
+        "img": '/static/img/capaFilmesDC/suicida.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 9,
-        nome: 'Mulher Maravilha: Linhagem de Sangue',
-        img: '/static/img/capaFilmesDC/mulhermaravilaLinagemdeSangue.jpg',
-        link: 'https://fvs.io/redirector?token=RUJwT1RjRmlhOE9XRDFnSGJiK1BKcGQwc0ZhR2ZsdVh1YjFGVmdLZHp1ZEhoUzY0bEgzeng0ZnAvWkdLZVN2S2ZTMWtWVXBIU0NNWG93TW1LalpUSk5zeFRrTHR2Z3JRQmMxTVRycklwSkpScUVoNXVNRVo2QmhnZzlsUC82RGI4WHhWR0MwVHAxT055SXJnN0UvS3huSTRMMWtRazNJQVFmdz06empiQUtZQnU3Z1FCU1NoMmM5anRUQT09'
+        "id": "liga-da-justica-e-os-jovens-titans",
+        "img": '/static/img/capaFilmesDC/jovensTitans.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     },
     {
-        id: 10,
-        nome: 'A Morte do Superman',
-        img: '/static/img/capaFilmesDC/AMortedoSuperman.jpg',
-        link: 'https://fvs.io/redirector?token=TVVLYjRMS05SdDZHUC9GTW96L0hraHVJcEVRZm1jbWxZZkN4V3R6cG5IU3hMV2NXbGVDYlRSS1BwTlJNQnlXdjBnV2RNUEkxM0VGVk5NbVA0RUYwNHI4QlJwc1h2M2Y3N2xlN3hOT2VWaUUrekF4aWEwNDIzSGhiNVE0eTRJc3IzVC9ndm5URDE4TDRtdlcyV1dhcTZpeHFFNDd1Uzd3U0tWcz06b1FqYXRibW14N2p1eUhrOHFiS0FCdz09'
+        "id": "liga-da-justica-war",
+        "img": '/static/img/capaFilmesDC/LigadaJusticaWAR.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "liga-da-justica-deuses-e-monstros",
+        "img": '/static/img/capaFilmesDC/deusesemonstros.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "liga-da-justica-apocalipse",
+        "img": '/static/img/capaFilmesDC/apokalipse.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "a-morte-e-retorno-de-superman",
+        "img": '/static/img/capaFilmesDC/morteSuperMan.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "mulher-maravilha-linhagem-sangrenta",
+        "img": '/static/img/capaFilmesDC/mulhermaravilaLinagemdeSangue.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "a-morte-de-superman",
+        "img": '/static/img/capaFilmesDC/AMortedoSuperman.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     }
 ]
 
@@ -88,13 +103,13 @@ var series = [{
     },
     {
         "id": 3,
-        "page": "pages/page-series-arrow.html",
+        "page": "pages/page-api.html",
         "id": "arrow",
         "img": "static/img/capaSerieDC/arrow.jpg"
     },
     {
         "id": 4,
-        "page": "pages/page-series-pennyworth.html",
+        "page": "pages/page-api.html",
         "id": "pennyworth",
         "img": "static/img/capaSerieDC/pennyworth.jpg"
     },
@@ -106,7 +121,7 @@ var series = [{
     },
     {
         "id": 6,
-        "page": "pages/page-series-shild.html",
+        "page": "pages/page-api.html",
         "id": "shild",
         "img": "static/img/capaSerieDC/agentsShild.jpg"
     },
@@ -130,129 +145,67 @@ var series = [{
     },
     {
         "id": 10,
-        "page": "pages/page-series-swamp.html",
+        "page": "pages/page-api.html",
         "id": "swamp",
         "img": "static/img/capaSerieDC/swamp.jpg"
     },
     {
         "id": 11,
-        "page": "pages/page-series-gotham.html",
+        "page": "pages/page-api.html",
         "id": "gotham",
         "img": "static/img/capaSerieDC/gotham.jpeg"
     },
     {
         "id": 12,
-        "page": "pages/page-series-raio-negro.html",
+        "page": "pages/page-api.html",
         "id": "raio-negro",
         "img": "static/img/capaSerieDC/raionegro.jpg"
     },
     {
         "id": 13,
-        "page": "pages/page-series-super-girl.html",
+        "page": "pages/page-api.html",
         "id": "SuperGirl",
         "img": "static/img/capaSerieDC/superGirl.jpg"
     },
     {
         "id": 14,
-        "page": "pages/page-series-tomorrow.html",
+        "page": "pages/page-api.html",
         "id": "tomorrow",
         "img": "static/img/capaSerieDC/tomorrow.jpg"
     },
     {
         "id": 15,
-        "page": "pages/page-series-flash.html",
+        "page": "pages/page-api.html",
         "id": "flash",
         "img": "static/img/capaSerieDC/flash.jpg"
+    },
+    {
+        "id": 16,
+        "page": "pages/page-api.html",
+        "id": "titans",
+        "img": "static/img/capaSerieDC/titans.jpg"
     }
 ]
 
 function viewFilme() {
 
     filmes.forEach(data => {
-        const input = document.createElement('input')
-        const label = document.createElement('label')
-        const divFlip = document.createElement('div')
-        const divFront = document.createElement('div')
-        const img = document.createElement('img')
-        const divBack = document.createElement('div')
+
         const a = document.createElement('a')
-        const divAssistir = document.createElement('div')
+        const div = document.createElement('div')
+        const img = document.createElement('img')
 
-        const strong1 = document.createElement('strong')
-        const strong2 = document.createElement('strong')
-        const nomeFilme = document.createElement('h5')
-        const nomeVoltar = document.createElement('h5')
-
-
-        input.setAttribute('type', 'checkbox')
-        input.setAttribute('hidden', '')
-        input.setAttribute('id', 'switch')
-
-        label.setAttribute('class', 'flip-container')
-        label.setAttribute('for', 'switch')
-
-        divFlip.setAttribute('class', 'flipper')
-        divFront.setAttribute('class', 'front')
-        divBack.setAttribute('class', 'back back-link red')
-
-        img.setAttribute('width', '130')
-        img.setAttribute('height', '180')
+        a.setAttribute('href', `${data.page}?id=${data.id}`)
+        div.setAttribute('class', 'cardImagem')
         img.setAttribute('src', `${data.img}`)
+        img.setAttribute('class', 'img')
+        img.setAttribute('width', '130')
+        img.setAttribute('heigth', '180')
 
-        // strong1.setAttribute('class', 'back-link')
-        // strong2.setAttribute('class', 'back-link')
-
-        a.setAttribute('href', `${data.link}`)
-
-        divAssistir.setAttribute('class', 'btn-lg blue')
-        divAssistir.innerHTML = 'Assistir';
-
-        nomeFilme.setAttribute('class', 'back-link')
-        nomeFilme.innerHTML = `${data.nome}`
-
-        nomeVoltar.setAttribute('class', 'btn-lg blue')
-        nomeVoltar.innerHTML = 'Voltar'
-
-        a.appendChild(divAssistir)
-
-        strong1.appendChild(nomeFilme)
-        strong2.appendChild(nomeVoltar)
-
-        divBack.appendChild(a)
-        divBack.appendChild(strong1)
-        divBack.appendChild(strong2)
-
-        divFront.appendChild(img)
-        divFlip.appendChild(divFront)
-        divFlip.appendChild(divBack)
-
-        label.appendChild(divFlip)
-
-        containerFilmes.appendChild(input)
-        containerFilmes.appendChild(label)
-
+        div.appendChild(img)
+        a.appendChild(div)
+        containerFilmes.appendChild(a)
     })
-
-    // <input type="checkbox" id="switch" hidden />
-    //             <label class="flip-container" for="switch">
-    //             <div class="flipper">
-
-    //                     <div class="front">
-    //                         <img width="130" height="180" src="/static/img/capaSeries/ponto-ignicao.jpg" />
-    //                     </div>
-
-    //                     <div class="back back-link red">
-
-    //                         <a href="http://streamtape.com/get_video?id=D4eAol09z1SkrWw&expires=1596451297&ip=F0AWKRMAKxSHDN&token=PFfj6HCHweFx&stream=1">
-    //                             <div class="btn btn-primary">ASSISTIR</div>
-    //                         </a>
-    //                          <strong class="back-link"><h5>click aqui para voltar</h5></strong> 
-    //                         <strong class="back-link"><h5>cccccccccccccccccccccccc</h5></strong>
-    //                     </div>
-
-
-    //                 </div>
-    //             </label>
 
 }
 viewFilme();

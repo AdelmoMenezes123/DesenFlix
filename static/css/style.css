@@ -208,3 +208,7 @@
         text-align: center;
         height: 20vh;
     }
+    
+    ul h1 {
+        color: snow;
+    }

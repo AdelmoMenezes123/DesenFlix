@@ -78,6 +78,41 @@ const filmes = [{
         "id": "a-morte-de-superman",
         "img": '/static/img/capaFilmesDC/AMortedoSuperman.jpg',
         "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "batman-cavaleiro-das-trevas-parte1",
+        "img": '/static/img/capaFilmesDC/cavaleiro_treva_parte_1.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "batman-cavaleiro-das-trevas-parte2",
+        "img": '/static/img/capaFilmesDC/cavaleiro_treva_parte_2.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "batman-vs-tartaruga-ninja",
+        "img": '/static/img/capaFilmesDC/batman_x_tartaruga_ninja.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "superman-foice",
+        "img": '/static/img/capaFilmesDC/superman-foice.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "superman-o-homen-do-amanha",
+        "img": '/static/img/capaFilmesDC/superman-o-homem-do-amanha.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "superman-shazam",
+        "img": '/static/img/capaFilmesDC/superman-shazam.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
+    },
+    {
+        "id": "batman-arkham",
+        "img": '/static/img/capaFilmesDC/batman-arkam.jpg',
+        "page": "/pages/page-filmes-anima/page-filmes-anima.html"
     }
 ]
 

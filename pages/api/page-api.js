@@ -88,6 +88,8 @@ const api = [{
 
 function view() {
 
+    // header('X-Frame-Options: GOFORIT');
+
     const queryString = window.location.search;
     console.log(queryString);
 
@@ -102,7 +104,7 @@ function view() {
             Nome.innerHTML = `${data.nome}`
             classe.setAttribute('class', `${data.classe}`)
             Sinopse.innerHTML = data.sinopse
-            Api.setAttribute('src', `${data.api}`)
+            Api.setAttribute('href', `${data.api}`)
         }
     })
 

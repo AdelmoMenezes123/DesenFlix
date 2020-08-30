@@ -352,6 +352,8 @@ var videos = [{
 
 function view() {
 
+    // header('X-Frame-Options: GOFORIT');
+
     const queryString = window.location.search;
     console.log(queryString);
 
